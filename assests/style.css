@@ -1,0 +1,41 @@
+body{
+    background-color: aliceblue;
+    display: flex;
+    justify-content: center;
+    align-content: center;
+    height: 80vh;
+    
+}
+.container{
+    background-color:aqua;
+    padding: 20px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    box-shadow: 10px 10px 5px 0px ;
+    border-radius: 8px;
+}
+img{
+    margin: 15px 0px;
+}
+input[type='submit']{
+width: 3rem;
+background-color:black;
+color: aqua;
+padding: 5px;
+border: none;
+border-radius: 5px;
+font-weight: 700;
+text-transform: capitalize;
+}
+input[type='text']{
+    padding: 5px;
+    border: none;
+    outline: none;
+    border-bottom: 2px solid black;
+    background: transparent;
+    margin-right: 5px;
+
+
+}
